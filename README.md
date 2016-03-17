@@ -13,11 +13,12 @@ Dependencies
 ------------
  - libmpdclient 2: http://www.musicpd.org/libs/libmpdclient/
  - cmake 2.6: http://cmake.org/
+ - openssl: https://www.openssl.org/
 
 Unix Build Instructions
 -----------------------
 
-1. install dependencies, cmake and libmpdclient are available from all major distributions.
+1. install dependencies, cmake and libmpdclient are available from all major distributions.  Openssl and openssl development options should also be installed.
 2. create build directory ```cd /path/to/src; mkdir build; cd build```
 3. create makefile ```cmake ..  -DCMAKE_INSTALL_PREFIX:PATH=/usr```
 4. build ```make```
